@@ -1,0 +1,26 @@
+body {
+    min-height: 250vh;
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+    color: white;
+    align-items: flex-end;
+    
+}
+
+.left-header{
+    
+}
+
+.right-header {
+    display: flex;
+    flex-direction: row;
+    align-items: space-between;
+    justify-content: flex-end;
+}
